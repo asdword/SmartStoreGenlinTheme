@@ -1,0 +1,14 @@
+﻿@using SmartStore.Web.Framework.Theming;
+
+@{
+    Html.AddCssFileParts(true, "~/Themes/FlexGenlin/Content/theme.scss");
+
+    if (WorkContext.WorkingLanguage.Rtl)
+    {
+        Html.AddCssFileParts(true, "~/Themes/FlexGenlin/Content/theme-rtl.scss");
+    }
+    Html.AddScriptParts(true, "~/Themes/FlexGenlin/Content/js/swiper/swiper.min.js");
+    Html.AddScriptParts(true, "~/Themes/FlexGenlin/Content/js/theme.js");
+}
+
+@{ Html.RenderPartial("ConditionalComments"); }

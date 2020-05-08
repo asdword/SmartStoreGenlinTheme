@@ -1,0 +1,385 @@
+//
+// Customize the child theme here with css overrides
+// or new selectors (for theme developers)
+// --------------------------------------------------
+body {
+    color: #515151;
+}
+
+.recently-viewed-product-grid article.art.slick-slide.slick-current {
+    border-color: transparent !important;
+}
+
+@media (min-width: 992px) {
+    .shop-logo .brand {
+        max-width: 190px;
+    }
+}
+
+.shopbar {
+    justify-content: space-between;
+}
+
+section.d-flex.pd-section {
+    flex-wrap: wrap;
+}
+
+.megamenu .navbar-nav .nav-item.selected .nav-link:before,
+.megamenu .navbar-nav .nav-item.expanded .nav-link:before {
+    bottom    : 0px;
+    height    : 1px;
+    background: #00a7ef;
+}
+
+.megamenu .navbar-nav .nav-item {
+    margin-left  : .7rem !important;
+    padding-left : .2rem;
+    padding-right: .2rem;
+}
+
+.category-page .art-picture-block {
+    margin-bottom: 0;
+}
+
+.artlist-sub-categories article.art {
+    border-radius: .5rem;
+}
+
+.delivery-time.pl-0 {
+    color: #03aa00 !important;
+}
+
+
+.facet-group {
+    background        : white;
+    border-radius     : .1rem;
+    border            : 1px solid #dedede;
+    -webkit-box-shadow: 0 12px 12px 0 hsla(0, 0%, 71%, .11);
+    box-shadow        : 0 12px 12px 0 hsla(0, 0%, 71%, .11);
+    margin            : 0 0 10px;
+    padding           : 0px 10px;
+}
+
+.content-center {
+    background-color  : #fff;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
+    box-shadow        : 0 2px 4px 0 rgba(0, 0, 0, .03);
+    border            : 1px solid #e4e4e4;
+    margin            : 0 -15px 0 0;
+    padding           : 7px;
+}
+
+.megamenu-section .navbar {
+    background: #ffffff;
+    padding   : 0;
+    border-top: 1px solid #eeeeee;
+}
+
+#header {
+    background-color: #ffffff;
+    box-shadow      : 0 7px 8px 0 rgba(0, 0, 0, .04);
+}
+
+.box {
+    background-color  : #fff;
+    border            : 1px solid #e4e4e4 !important;
+    line-height       : 22px;
+    position          : relative;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
+    box-shadow        : 0 2px 4px 0 rgba(0, 0, 0, .03);
+}
+
+.panel-box {
+    background-color  : #fff;
+    border-radius     : 5px;
+    border            : 1px solid #e4e4e4 !important;
+    line-height       : 22px;
+    position          : relative;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow        : 0 2px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.pd-offer {
+    line-height     : normal;
+    background-color: #f5f5f5;
+    border          : 1px solid #e4e4e4;
+    border-radius   : 5px;
+}
+
+.btn-add-to-cart {
+    font-size       : 1.286rem;
+    line-height     : 0;
+    border-radius   : 3px;
+    color           : #fff;
+    overflow        : hidden;
+    text-align      : center;
+    background-color: #ef394e;
+    border          : none;
+    padding         : 16px 18px;
+    font-weight     : 100;
+}
+
+.btn-add-to-cart:hover,
+.btn-add-to-cart:active,
+.btn-add-to-cart:focus {
+    background-color: #d12c3f !important;
+}
+
+.tab-content {
+    padding-left : 0.625rem !important;
+    padding-right: 0.625rem !important;
+}
+
+span.tab-caption {
+    font-size: 1.1rem;
+}
+
+.breadcrumb {
+    margin-bottom: .5rem;
+}
+
+.breadcrumb-item:after {
+    content       : "/";
+    color         : #cfcfcf;
+    letter-spacing: .4px;
+    font-size     : 13px;
+    vertical-align: top;
+    margin-left   : 5px;
+    padding-right : 5px;
+    font-weight   : 400 !important;
+    padding       : 0;
+}
+
+.artlist-grid:not(.artlist-boxed).artlist::after {
+    content: unset;
+}
+
+.artlist-actions.artlist-actions--top {
+    padding       : .5rem;
+    padding-bottom: 0;
+}
+
+.artlist-actions {
+    margin-bottom: 0;
+}
+
+.product-list-container {
+    margin-bottom: 1.5rem;
+}
+
+.page-title {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 0;
+}
+
+.nav-tabs-line .nav-item {
+    position : relative;
+    color    : #6e6e6e;
+    min-width: 7rem;
+}
+
+.heading {
+    padding-right: 0.2rem;
+}
+
+.home-content {
+    max-width   : 1366px;
+    margin-right: auto;
+    margin-left : auto;
+    width       : 100%;
+}
+
+.heading-title,
+.block-title h3 {
+    font-size     : 1.5rem !important;
+    padding-bottom: 0.5rem;
+    border-bottom : 1px solid #fc4040;
+    display       : inline;
+}
+
+.block.block-boxed .block-title {
+    color : #515151;
+    margin: .7rem;
+}
+
+.block .block-title {
+    padding-bottom: 2px;
+    padding-top   : 0;
+}
+
+.news-list-homepage {
+    padding: 0.625rem !important;
+}
+
+.heading:before {
+    background: rgba(0, 0, 0, 0.25) !important;
+    top       : 77%;
+    width     : 99%;
+}
+
+.instasearch-icon {
+    position: absolute;
+    top     : .7rem;
+    right   : 1rem;
+    color   : #a7b2bd;
+}
+
+// footer
+.footer-light .footer-bottom-wrapper {
+    background: rgba(0, 0, 0, 0.75);
+    color     : #c5c5c5;
+}
+
+.footer-light .footer-bottom-wrapper a {
+    color      : #0096ff;
+    font-weight: bold;
+}
+
+.active-filter-item a.btn-gray {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.active-filter-link:after {
+    top        : 4px;
+    line-height: 1.5rem;
+}
+
+.active-filters {
+    padding-top: .5rem;
+    margin     : 0;
+}
+
+.active-filter-label {
+    line-height: 1.5rem;
+}
+
+//home page
+
+.best-product {
+    margin          : 0 -19px;
+    background-color: #5825aa;
+    position        : relative;
+
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .slick-list {
+        margin: 0 -10px;
+    }
+
+    .slick-slider .art {
+        background   : white;
+        border-radius: .5rem;
+    }
+
+    .slick-dots li button {
+        width             : 10px;
+        height            : 10px;
+        background-color  : #fff;
+        opacity           : .8;
+        -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .3);
+        box-shadow        : 0 1px 1px 0 rgba(0, 0, 0, .3);
+        margin            : 0 6px !important;
+        position          : relative;
+    }
+
+    .product-list-banner {
+        text-align: center !important;
+        align-self: center !important;
+
+        img {
+            width     : calc(180px - 2%);
+            margin-top: 2%;
+        }
+    }
+}
+
+.slick-dots li.slick-active button {
+    background: #00bfd6;
+}
+
+.slider-home-page {
+    border-radius: .5rem;
+    box-shadow   : 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.swiper-slide img {
+    width              : 100%;
+    background-repeat  : no-repeat;
+    background-position: 50%;
+    background-size    : cover;
+}
+
+.left-side {
+    padding-left: 0;
+}
+
+.left-side img:first-child {
+    margin-bottom: 13px;
+}
+
+.left-side img {
+    width        : 100%;
+    border-radius: .5rem;
+    box-shadow   : 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.service-block {
+    display        : flex;
+    justify-content: space-between;
+    text-align     : center;
+    border-radius  : .5rem;
+    padding        : 1rem 1.8rem;
+    background     : #fff;
+    box-shadow     : 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+.services-item {
+    border-right: 1px solid #e1e1e2;
+    flex-grow   : 1;
+    cursor      : pointer;
+}
+
+.services-item:first-child {
+    border-right: 0;
+}
+
+img.services__icon {
+    width : 60px;
+    height: 70px;
+}
+
+.back-pattern {
+    position  : absolute;
+    padding   : 1.5rem 2rem;
+    width     : 100%;
+    top       : 0;
+    text-align: right;
+    height    : 100%;
+
+    .inner {
+        background   : #ffffff3b;
+        border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+        height       : 100%;
+        display      : block;
+    }
+}
+
+
+/*footer*/
+
+a.btn.x-btn-secondary.btn-circle.btn-social i {
+    font-size  : 1.3rem;
+    font-weight: 100;
+}
+
+a.btn.x-btn-secondary.btn-circle.btn-social:hover {
+    box-shadow        : 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.4s;
+    -moz-transition   : all 0.4s;
+    transition        : all 0.4s;
+    cursor            : pointer;
+}
